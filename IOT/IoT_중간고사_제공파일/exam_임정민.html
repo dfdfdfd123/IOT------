@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>중간고사 - 임정민</title>
+  <link rel="stylesheet" href="css/exam1.css">
+  <link rel="stylesheet" href="css/exam2.css">
+</head>
+<body>
+    <header>
+        <h1>학생 관리 시스템</h1>
+    </header>
+    <button id="bttn">&#9776;</button>
+
+    <nav id="nav">
+        <ul>
+            <li id="student">임정민 님</li>
+            <li id="request">수강신청</li>
+            <li>학점관리</li>
+            <li>정보관리</li>
+        </ul>
+    </nav>
+
+    <div id="container">
+        <h1>수강 신청</h1>
+        <form name="form1">
+        <ul id="userInput">  
+            <li>
+                <label for="username">이 름</label>
+                <input type="text" id="username" name="username">
+            </li>    
+            <li>
+                <label for="userid">학 번</label>
+                <input type="text" id="userid" name="userid">
+            </li>   
+            <li>
+                <label for="subject">과 목</label>
+                <select id="subject" name="subject">
+                    <option></option>
+                    <option value="JAVA">JAVA</option>
+                    <option value="Javascript">Javascript</option>
+                    <option value="C언어">C언어</option>
+                </select>
+            </li>         
+        </ul>
+        </form>
+        
+        <table id="attendant">
+        <thead>
+            <tr>
+            <th>이 름</th>
+            <th>학 번</th>
+            <th>신청과목</th>
+            <th>선 택</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+        </table>
+    </div>
+    <script src="js/exam.js"></script>
+</body>
+</html>

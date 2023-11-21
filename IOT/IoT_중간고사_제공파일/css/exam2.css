@@ -1,0 +1,54 @@
+#container {
+    width:400px;
+    margin:10px;
+    visibility: hidden;  /* 요소가 숨겨져도 공간을 유지해야 한다 */
+}
+#container.active{
+    width:400px;
+    margin:10px;
+    visibility: visible;
+}
+#container h1 {
+    text-align: center;
+}
+#userInput {
+    list-style: none;
+    width:400px;
+}
+#userInput label {
+    width:50px;
+    margin-right:10px;
+    line-height:30px;
+}
+#userInput input {
+    width:200px;
+    height:30px;      
+    margin-bottom: 10px;
+}
+#userInput select {
+    width:200px;
+    height:30px;      
+    margin-bottom: 10px;
+}
+#btn1 {
+    width:350px;      
+    padding: 15px;
+}
+#attendant {
+    margin-top:20px;
+}
+table {
+    border:1px solid #ccc;
+    border-collapse:collapse;
+}
+th, td {
+    border:1px solid #ccc;
+    padding:10px;   
+    text-align: center;         
+}
+th {
+    width:130px;
+}
+td {
+    font-size: 0.8em;
+}
